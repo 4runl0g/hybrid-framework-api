@@ -1,0 +1,22 @@
+{
+  "TestCases": [
+    {
+      "testCaseId": "eula01",
+      "testCaseName": "eulaTest",
+      "testCaseDescription": "eulaTest for valid tenant parameter",
+      "testCaseParameters": {
+          "tenant": "1kosmos"
+      },
+      "execute": true
+    },
+    {
+      "testCaseId": "eula02",
+      "testCaseName": "eulaTest",
+      "testCaseDescription": "eulaTest for valid tenant parameter",
+      "testCaseParameters": {
+        "tenant": "1kosmosdummy"
+      },
+      "execute": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "services": [
+    {
+      "health": {
+        "httpMethod": "GET",
+        "uri": "https://1k-dev.1kosmos.net/healthz",
+        "apiHeader": ["Content-Type"],
+        "statusCode": 200,
+        "requestBody": {
+
+        }
+      }
+    },
+    {
+      "eula": {
+        "httpMethod": "GET",
+        "uri": "https://1k-dev.1kosmos.net/api/v3/rest/default/eula?tenant=",
+        "apiHeader": ["Content-Type"],
+        "statusCode": 200,
+        "requestBody": {
+
+        }
+      }
+    }
+  ]
+}
